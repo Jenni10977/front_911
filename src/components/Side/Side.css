@@ -1,0 +1,75 @@
+.fondo{
+    background: url('../assets/911_2.png') no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.sidebar{
+    color: white;
+    width: 210px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+.logo-icon{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(28, 17, 41, 0.88);
+}
+
+.menu-bar{
+    height: 86vh;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1rem;
+    position: relative;
+}
+
+.dark-btn{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.toogle{
+    margin-left: 15px;
+}
+
+.hover:hover{
+    background: #BC5151 !important;
+    color: #fff !important;
+}
+
+.ant-menu-item-selected{
+    background: #BC5151 !important;
+    color: #fff !important;
+}
+
+.ant-menu-item:hover{
+    background: #BC5151 !important;
+    color: #fff !important;
+}
+
+.ant-btn-icon-only{
+    background: #BC5151;
+}
+
+.ant-btn-primary:hover{
+    background: white !important;
+    color: #BC5151 !important;
+}

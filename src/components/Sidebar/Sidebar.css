@@ -1,0 +1,38 @@
+.sidebar-container{
+    background-color: #F3F3F3;
+    color: black;
+    width: 210px;
+    height: calc(100vh - 70px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.sidebar-container::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-option{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 30px;
+    gap: 20px;
+    max-width: 210px;
+}
+
+.nav-option:hover, .nav-option:hover i.bi{
+    background-color: #BC5151;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.nav-option i.bi{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
